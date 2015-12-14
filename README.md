@@ -1,0 +1,1 @@
+# alphashuro.github.io
