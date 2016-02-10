@@ -1,0 +1,36 @@
+{
+  "name": "alphashuro.github.io",
+  "homepage": "alphashuro.github.io",
+  "authors": [
+    "Alpha Shuro <alphashuro@gmail.com>"
+  ],
+  "description": "My personal website",
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "alphashuro",
+    "alpha",
+    "shuro",
+    "tawanda",
+    "alphatshuro",
+    "alphats",
+    "ats",
+    "designer",
+    "developer",
+    "thinker"
+  ],
+  "license": "None",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
