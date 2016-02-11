@@ -12,10 +12,15 @@ html
     link(rel='stylesheet', href='css/main.css')
   body
     // Nav
-    nav.navbar.navbar-default
+    nav.navbar.navbar-inverse.navbar-fixed-top
       .container-fluid
         .navbar-header
-          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-collapse', aria-expanded='false')
+          button.navbar-toggle.collapsed(
+          type='button', 
+          data-toggle='collapse', 
+          data-target='#navbar-collapse', 
+          aria-expanded='false' )
+
             span.sr-only Toggle navigation
             span.icon-bar
             span.icon-bar
@@ -34,7 +39,7 @@ html
     // Intro
     section#intro
       .intro-text.text-center
-        h2 Hi. I'm Alpha.
+        h2 Alpha Shuro.
         small Designer, Developer, Thinker.
       #intro-carousel.carousel.slide(data-ride='carousel')
         ol.carousel-indicators
@@ -42,13 +47,13 @@ html
           li(data-target="#intro-carousel", data-slide-to="1")
         .carousel-inner(role='listbox')
           .item.active
-            img(src="http://placehold.it/1600x700/222222/eeeeee?text=Code", alt="Code")
+            img(src="img/intro/code.svg", alt="Code")
             .carousel-caption
-              Code
+              h1 Code
           .item
-            img(src="http://placehold.it/1600x700/ffffff/222222?text=Design", alt="Design")
+            img(src="img/intro/design.svg", alt="Design")
             .carousel-caption
-              Code
+              h1 Design
         a.left.carousel-control(href='#intro-carousel' role='button' data-slide='prev')
           span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
           span.sr-only Previous
@@ -58,14 +63,16 @@ html
 
     // About Me
     section#about
-      h1 About Me
+      .section-header
+        h1 About Me
       p I am a developer, designer, and thinker.
       p I write multiplatform web based, desktop, and mobile apps.
       p I value writing simple, clean, reusable, testable and maintable code.
       p I believe in creating high quality value in the products and services I provide.
     // Features
     section.skills
-      h1 Skills
+      .section-header
+        h1 My Skills
       .skill
         h2 Full Stack Development
         img(src='', alt='Full Stack Development')
@@ -77,7 +84,8 @@ html
         img(src='', alt='Responsive Web Design')
     // Portfolio
     section#portfolio
-      h1 Portfolio
+      .section-header
+        h1 Portfolio
       ul
         li
           a(href='aepsecreterial.co.za') AeP Secreterial
@@ -91,7 +99,8 @@ html
           a(href='lacam.co.za') Lacam Cleaning Services
     // Contact
     section#contact
-      h1 Get in touch
+      .section-header
+        h1 Get in touch
       address
         strong Alpha Shuro.
         br
