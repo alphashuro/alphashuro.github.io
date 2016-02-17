@@ -25,8 +25,21 @@ a {
 .navbar .navbar-header .navbar-brand img {
   max-width: 50px;
 }
+a.cv {
+  margin: 20px;
+  border: 1px solid;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  line-height: 4;
+}
+a.cv:hover {
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+}
 section {
-  min-height: 100vh;
+  min-height: 80vh;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.5em;
@@ -72,18 +85,27 @@ section#about .section-content {
 section#about .section-content img {
   max-height: 500px;
 }
-section#skills .section-content {
+section#skills .section-content .skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-section#skills .section-content .skill {
+section#skills .section-content .skills .skill {
   width: 300px;
   margin: 50px;
   text-align: center;
 }
-section#skills .section-content .skill img {
+section#skills .section-content .skills .skill img {
   width: 100%;
+}
+section#skills .section-content .things {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  flex-wrap: wrap;
+}
+section#skills .section-content .things li {
+  font-size: 1.3em;
 }
 section#portfolio ul {
   display: flex;
@@ -105,6 +127,7 @@ section#portfolio ul li a {
 }
 section#portfolio ul li a img {
   box-shadow: 0 0 10px #000;
+  transition: all 0.3s;
 }
 section#portfolio ul li:hover {
   filter: blur(0px) greyscale(0%);
@@ -112,4 +135,23 @@ section#portfolio ul li:hover {
 }
 section#portfolio ul li:hover a {
   color: #337ab7;
+}
+section#portfolio ul li:hover a img {
+  transform: scale(1.2);
+}
+section#contact .section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+section#contact .section-content ul.social {
+  list-style: none;
+}
+section#contact .section-content ul.social li a {
+  line-height: 1.5;
+}
+section#contact .section-content ul.social li a i {
+  width: 40px;
+  margin-right: 10px;
 }

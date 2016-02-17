@@ -40,9 +40,22 @@ a {
       
       img
         max-width 50px
+        
+a.cv
+  margin: 20px;
+  border: 1px solid;
+  padding: 20px;
+  background #222
+  color white
+  line-height 4
+  
+  &:hover
+    background white
+    color #222
+    text-decoration none
 
 section
-  min-height 100vh
+  min-height 80vh
   padding-top 40px
   padding-bottom 40px
   font-size 1.5em
@@ -93,18 +106,26 @@ section
       
   &#skills
     .section-content
-      display flex
-      flex-wrap wrap
-      justify-content center
-      
-      .skill
-        width 300px
-        margin 50px
-        text-align center
+      .skills
+        display flex
+        flex-wrap wrap
+        justify-content center
         
-        img
-          width 100%
-
+        .skill
+          width 300px
+          margin 50px
+          text-align center
+          
+          img
+            width 100%
+      .things
+        display flex
+        justify-content space-around
+        list-style none
+        flex-wrap wrap
+        
+        li
+          font-size 1.3em
   &#portfolio
     ul
       display flex
@@ -126,6 +147,7 @@ section
             
           img
             box-shadow 0 0 10px black
+            transition all 0.3s
 
         &:hover
           filter blur(0px) greyscale(0%)
@@ -133,3 +155,24 @@ section
           
           a
             color #337AB7
+            
+            img
+              transform scale(1.2)
+
+  &#contact
+    .section-content
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      
+      ul.social
+        list-style none
+        
+        li
+          a
+            line-height 1.5
+            i
+              width 40px
+              margin-right 10px
+              

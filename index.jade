@@ -8,12 +8,14 @@ html
 
     title Alpha Shuro | Software Developer &amp; Designer
     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
 
     // Favicon
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    link(rel='shortcut icon' href='favicon.ico' type='image/x-icon')
     // Vendor styles
     link(rel='stylesheet', href='css/bootstrap.min.css')
+    // Font Awesome
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
     // My custom styles
     link(rel='stylesheet', href='css/main.css')
   body
@@ -75,25 +77,38 @@ html
       .section-header
         h1 About Me
       .section-content
-        img(src="img/about/profile.jpg", alt="Profile picture.")
-        p I am a full stack developer and designer.
-        p I write multiplatform web based, desktop, and mobile apps.
-        p I value writing simple, clean, reusable, testable and maintable code.
-        p I believe in building high quality products and creating real value for people.
+        .picture
+          img(src="img/about/profile.jpg", alt="Profile picture.")
+        .caption
+          a.cv(href='https://docs.google.com/document/d/1XQ1cjPJW4BTDoVe08fQeq9Euf0MViZ_m8Zopf427gB4/edit?usp=sharing') My CV
+          p I am a full stack developer and designer.
+          p I write multiplatform web based, desktop, and mobile apps.
+          p I value writing simple, clean, reusable, testable and maintable code.
+          p I believe in building high quality products and creating real value for people.
     // Features
     section#skills
       .section-header
         h1 My Skills
       .section-content
-        .skill
-          h2 Full Stack Development
-          img(src='img/skills/fullstack.png', alt='Full Stack Development')
-        .skill
-          h2  Multi-platform Applications
-          img(src='img/skills/cloud.png', alt='Multi Platform Applications')
-        .skill
-          h2 Responsive Web Design
-          img(src='img/skills/responsive.jpg', alt='Responsive Web Design')
+        .skills
+          .skill
+            h2 Full Stack Development
+            img(src='img/skills/fullstack.png', alt='Full Stack Development')
+          .skill
+            h2  Multi-platform Applications
+            img(src='img/skills/cloud.png', alt='Multi Platform Applications')
+          .skill
+            h2 Responsive Web Design
+            img(src='img/skills/responsive.jpg', alt='Responsive Web Design')
+        ul.things
+          li Meteor
+          li Javascript
+          li React
+          li NodeJS
+          li MongoDB
+          li C#
+          li SQL
+          li Java
     // Portfolio
     section#portfolio
       .section-header
@@ -136,13 +151,21 @@ html
           a(href='mailto:me@alphashuro.com') me@alphashuro.com
           ul.social
             li
-              a(href='https://www.facebook.com/alphashuro') Facebook
+              a(href='https://www.facebook.com/alphashuro') 
+                i.fa.fa-facebook
+                span Facebook
             li
-              a(href='https://twitter.com/alphashuro') Twitter
+              a(href='https://twitter.com/alphashuro') 
+                i.fa.fa-twitter
+                span Twitter
             li
-              a(href='https://www.linkedin.com/in/alphashuro') LinkedIn
+              a(href='https://www.linkedin.com/in/alphashuro') 
+                i.fa.fa-linkedin
+                span LinkedIn
             li
-              a(href='https://github.com/alphashuro') GitHub
+              a(href='https://github.com/alphashuro') 
+                i.fa.fa-github
+                span GitHub
         address
           abbr(title='Phone') P:
           |  073 790-7955 
