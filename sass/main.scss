@@ -37,7 +37,7 @@ a {
 		margin-top: 0px;
 	}
 	@media (max-width: $tablet) {
-		width: 140%;
+		width: 100%;
 	}
 
 	nav {
@@ -86,7 +86,7 @@ a {
 
 	section {
 		&#content {
-			width: 700px;
+			width: 80%;
 			margin: auto;
 			display: flex;
 			@media (min-width: $big) {
