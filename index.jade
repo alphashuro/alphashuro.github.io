@@ -1,177 +1,61 @@
 doctype html
 html
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='keywords' content='developer, designer, web, mobile, desktop, app, full stack')
-    meta(name='description' content='Alpha Shuro\'s personal website.')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='keywords' content='developer, full stack, programmer')
+		meta(name='description' content='Alpha Shuro\'s personal website.')
 
-    title Alpha Shuro | Software Developer &amp; Designer
-    
-    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title i am alpha shuro
+		
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
 
-    // Favicon
-    link(rel='shortcut icon' href='favicon.ico' type='image/x-icon')
-    // Vendor styles
-    link(rel='stylesheet', href='css/bootstrap.min.css')
-    // Font Awesome
-    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
-    // My custom styles
-    link(rel='stylesheet', href='css/main.css')
-  body
-    // Nav
-    nav.navbar.navbar-default.navbar-fixed-top
-      .container-fluid
-        .navbar-header
-          button.navbar-toggle.collapsed(
-          type='button', 
-          data-toggle='collapse', 
-          data-target='#navbar-collapse', 
-          aria-expanded='false' )
-
-            span.sr-only Toggle navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          a.navbar-brand(href='#') 
-            img(src="img/logo.svg", alt="Logo")
-        #navbar-collapse.collapse.navbar-collapse
-          ul.nav.navbar-nav.navbar-right
-            li
-              a(href='#intro') Intro
-            li
-              a(href='#about') About Me
-            li
-              a(href='#skills') Skills
-            li
-              a(href='#portfolio') Portfolio
-            li
-              a(href='#contact') Get In Touch
-    // Intro
-    section#intro
-      .intro-text.text-center.poiret
-        h2 Alpha Shuro.
-        small Designer, Developer, Thinker.
-      #intro-carousel.carousel.slide(data-ride='carousel')
-        ol.carousel-indicators
-          li(data-target="#intro-carousel", data-slide-to="0").active
-          li(data-target="#intro-carousel", data-slide-to="1")
-        .carousel-inner(role='listbox')
-          .item.active
-            img(src="img/intro/code.svg", alt="Code")
-            .carousel-caption
-              p I Code
-          .item
-            img(src="img/intro/design.svg", alt="Design")
-            .carousel-caption
-              p I Design
-        a.left.carousel-control(href='#intro-carousel' role='button' data-slide='prev')
-          span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
-          span.sr-only Previous
-        a.right.carousel-control(href='#intro-carousel' role='button' data-slide='next')
-          span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
-          span.sr-only Next
-
-    // About Me
-    section#about
-      .section-header
-        h1 About Me
-      .section-content
-        .picture
-          img(src="img/about/profile.jpg", alt="Profile picture.")
-        .caption
-          a.cv(href='https://docs.google.com/document/d/1XQ1cjPJW4BTDoVe08fQeq9Euf0MViZ_m8Zopf427gB4/edit?usp=sharing') My CV
-          p I am a full stack developer and designer.
-          p I write multiplatform web based, desktop, and mobile apps.
-          p I value writing simple, clean, reusable, testable and maintable code.
-          p I believe in building high quality products and creating real value for people.
-    // Features
-    section#skills
-      .section-header
-        h1 My Skills
-      .section-content
-        .skills
-          .skill
-            h2 Full Stack Development
-            img(src='img/skills/fullstack.png', alt='Full Stack Development')
-          .skill
-            h2  Multi-platform Applications
-            img(src='img/skills/cloud.png', alt='Multi Platform Applications')
-          .skill
-            h2 Responsive Web Design
-            img(src='img/skills/responsive.jpg', alt='Responsive Web Design')
-        ul.things
-          li Meteor
-          li Javascript
-          li React
-          li NodeJS
-          li MongoDB
-          li C#
-          li SQL
-          li Java
-    // Portfolio
-    section#portfolio
-      .section-header
-        h1 Portfolio
-      .section-content
-        ul
-          li
-            a(href='http://aepsecreterial.co.za')
-              img(src="img/portfolio/aepsec.png", width='300' alt="") 
-              br
-              p AeP Secreterial
-          li
-            a(href='http://aepay.co.za')
-              img(src="img/portfolio/aepay.png", width='300' alt="") 
-              br
-              p AeP Payroll
-          li
-            a(href='http://aud-e-prac.co.za')
-              img(src="img/portfolio/aud.png", width='300' alt="") 
-              br
-              p Aud-e-Prac
-          li
-            a(href='http://jnec.co.za')
-              img(src="img/portfolio/jnec.png", width='300' alt="") 
-              br
-              p JNEC
-          li
-            a(href='http://lacam.co.za')
-              img(src="img/portfolio/lacam.png", width='300' alt="") 
-              br
-              p Lacam
-    // Contact
-    section#contact
-      .section-header
-        h1 Get in touch
-      .section-content
-        address
-          strong Alpha Shuro.
-          br
-          a(href='mailto:me@alphashuro.com') me@alphashuro.com
-          ul.social
-            li
-              a(href='https://www.facebook.com/alphashuro') 
-                i.fa.fa-facebook
-                span Facebook
-            li
-              a(href='https://twitter.com/alphashuro') 
-                i.fa.fa-twitter
-                span Twitter
-            li
-              a(href='https://www.linkedin.com/in/alphashuro') 
-                i.fa.fa-linkedin
-                span LinkedIn
-            li
-              a(href='https://github.com/alphashuro') 
-                i.fa.fa-github
-                span GitHub
-        address
-          abbr(title='Phone') P:
-          |  073 790-7955 
-          br
-    // Vendor scripts
-    script(src='js/jquery.min.js')
-    script(src='js/bootstrap.min.js')
-    // My custom script
-    script(src='js/main.js')
+		link(rel='shortcut icon' href='img/logo.ico' type='image/x-icon')
+		link(rel='stylesheet', href='css/main.css')
+	body
+		.container
+			header
+				nav
+					.logo
+						svg(width='100px', height='65px' color="white")
+							image(xlink:href="img/logo.svg" width="100" height="65" color="white")
+					.menu
+						ul
+							li
+								a.link.active(href='/') about me
+							li
+								a.link(href='the-blog.html') the blog
+			section#content
+				.left
+					p.my-name
+						| i'm 
+						strong alpha
+						| .
+					
+					p
+						| i mostly write 
+						strong javascript
+						| .
+					p
+						| i like 
+						strong living
+						| .
+				.right
+					p
+						strong hi
+						| .
+					p
+						| i'm a 
+						strong software developer
+						| .
+					p
+						| i like 
+						strong philosophy
+						|  and 
+						strong ai
+						| .
+					p
+						| mail 
+						a(href='mailto:me@alphashuro.com')
+							strong me@alphashuro.com
+						| .
