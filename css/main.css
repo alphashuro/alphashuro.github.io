@@ -1,0 +1,48 @@
+body {
+  background-color: #1C1C1C;
+  color: #B8B2B2;
+  font-size: 24px;
+  font-family: AvenirNext-Regular;
+  letter-spacing: 0.1px; }
+
+a {
+  color: #6d6464;
+  text-decoration: none;
+  cursor: pointer; }
+
+.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px; }
+  .container nav {
+    display: flex; }
+    .container nav .logo {
+      margin-left: 60px;
+      margin-top: 60px; }
+    .container nav .menu {
+      margin-left: auto;
+      font-size: 32px;
+      width: 200px;
+      height: 150px;
+      font-family: Klee-Medium; }
+      .container nav .menu ul {
+        list-style: none; }
+        .container nav .menu ul li .link.active {
+          text-decoration: line-through; }
+  .container section#content {
+    width: 700px;
+    margin: auto;
+    display: flex; }
+    .container section#content .left, .container section#content .right {
+      width: 350px; }
+      .container section#content .left p, .container section#content .right p {
+        margin-top: 150px; }
+    .container section#content .left {
+      text-align: right; }
+    .container section#content .right p:first-child {
+      margin-top: 60px; }
+
+.my-name {
+  font-family: Bauhaus93;
+  text-shadow: 0 0 4px rgba(100, 100, 100, 0.5); }
