@@ -2,12 +2,17 @@ $light:      #B8B2B2;
 $dark:       #1C1C1C;
 $accent:		 #D1D1D1;
 
+$small: 425px;
+$big: 1024px;
+$tablet: 768px;
+
 body {
 	background-color: $dark;
 	color: $light;
 	font-size: 24px;
 	font-family: AvenirNext-Regular;
 	letter-spacing: 0.1px;
+	width: 100%;
 }
 
 a {
@@ -23,6 +28,17 @@ a {
 		right: auto;
 		top: 64px;
 	}
+	@media (max-width: $small) {
+		width: 100%;
+		margin-top: 16px;
+	}
+	@media (min-width: $big) {
+		width: 1184px;
+		margin-top: 0px;
+	}
+	@media (max-width: $tablet) {
+		width: 140%;
+	}
 
 	nav {
 		display: flex;
@@ -32,6 +48,10 @@ a {
 				left: 60px;
 				top: 60px;
 			}
+
+			@media (max-width: $small) {
+				margin-left: 32px;
+			}
 		}
 
 		.menu {
@@ -40,6 +60,16 @@ a {
 			width: 200px;
 			height: 150px;
 			font-family: Klee-Medium;
+			border-left: 2px solid darken(white, 60%);
+
+			@media (max-width: $small) {
+				width: 150px;
+				font-size: 25px;
+			}
+
+			@media (min-width: $big) {
+				width: 200px;
+			}
 
 			ul {
 				list-style: none;
@@ -59,6 +89,18 @@ a {
 			width: 700px;
 			margin: auto;
 			display: flex;
+			@media (min-width: $big) {
+				margin-top: -64px;
+			}
+			@media (max-width: $small) {
+				width: 85%;
+
+				.left, .right {
+					position: absolute;
+					width: 80%;
+					text-align: center;
+				}
+			}
 
 			.left, .right {
 				width: 350px;
