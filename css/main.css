@@ -1,5 +1,8 @@
 body {
   background-color: #1C1C1C;
+  background-image: url("../img/apple-background.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
   color: #B8B2B2;
   font-size: 24px;
   font-family: AvenirNext-Regular;

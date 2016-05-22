@@ -8,6 +8,9 @@ $tablet: 768px;
 
 body {
 	background-color: $dark;
+	background-image: url("../img/apple-background.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
 	color: $light;
 	font-size: 24px;
 	font-family: AvenirNext-Regular;
