@@ -13,7 +13,7 @@ I'm Alpha Shuro (yes, that's my real name). I, like you, am also a traveller, se
 I enjoy learning, modelling solutions to problems, learning how to learn, building software, and [building factories](https://www.factorio.com).
 I also enjoy ice skating, and looking for more fun things to try.
 
-My primary work is building full stack web applications and distributed web services.
+My primary work involves building full stack web applications and distributed web services.
 
 In code, I value readability, correctness (_not_ perfection) greatly. And diagrams are _awesome_.
 
