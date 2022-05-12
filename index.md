@@ -15,7 +15,7 @@ I also enjoy ice skating, and looking for more fun things to try.
 
 My primary work involves building full stack web applications and distributed web services.
 
-In code, I value readability, correctness (_not_ perfection), and communication greatly. And diagrams are _awesome_.
+In code, I value readability, correctness, and communication greatly. Oh, and diagrams are _awesome_.
 
 Many claim to have heard me howling soliloquies about _functional programming_ during full moons, but the evidence is circumstantial at best.
 
