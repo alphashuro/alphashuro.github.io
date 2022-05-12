@@ -29,6 +29,6 @@ Many claim to have heard me howling soliloquies about _functional programming_ d
 
 ## What I care deeply about
 
-- I want to help humans live better (automate what should be automated, use tech for the good of the species)
-- I want to help people learn how to learn and how to use their amazing pattern recognition machine (brain) well
-- I always try to have a positive impact on the people around me (usually using bullet 2 👆🏿)
+- I want to **help humans live better**, automate what can be, and use tech for the good of the species
+- I want to **help people learn how to learn** and use their built-in pattern recognition machine well
+- I always try to **have a positive impact on the people around me** (usually using bullet 2 👆🏿)
