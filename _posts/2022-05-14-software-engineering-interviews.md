@@ -19,7 +19,8 @@ categories: software-engineering
 Software engineering involves a lot of creative problem solving, 
 and when you're stressed your brain makes very inaccurate decisions based more on emotion than thought.
 Brain functions involved in problem solving, like goal directed behaviour, reinforcement learning, decision-making, etc happen in the frontal lobe.
-// frontal lobe illustration
+
+_imagine an illustration of a frontal lobe here_
 
 Information from your senses usually has to pass through the frontal lobe first before resulting in action, 
 giving you the opportunity to think carefully before it goes to the amygdala to be processed for emotion, 
