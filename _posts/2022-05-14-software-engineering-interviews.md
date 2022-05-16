@@ -2,7 +2,7 @@
 layout: post
 title: "Software engineering interviews"
 date: 2022-05-16 19:51:32 +0200
-categories: software-engineering
+tags: software-engineering
 ---
 
 # Thoughts on software engineering interviews
