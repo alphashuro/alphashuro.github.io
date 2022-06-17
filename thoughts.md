@@ -1,5 +1,5 @@
 ---
-title: Thoughts
+title: thoughts
 ---
 
 Musings, ramblings, and ideas that I found valuable.
