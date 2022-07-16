@@ -122,15 +122,12 @@ thus `:qa!` = force quit all open files
 ### Vim is hard
 There is an initially steep learning curve, due to the number of concepts one has to learn before they can be productive in it.
 However this quickly tapers off once you understand the basics, 
-after going through vim-tutor I found Vim much easier to use than any other editor I've used before.
+after going through vimtutor I found Vim much easier to use than any other editor I've used before.
 
 ### You have to give up nice IDE features from your current editor
 I'll be honest and say that attempting to adopt the complete pure terminal-vim experience as your primary method for coding can be quite involved.
 However almost every editor I've encounted has a "vim-mode" or a plugin that implements vim mode.
 [vs-code](https://code.visualstudio.com)'s vim plugin is particularly good.
-
-The only problem is many of these editors do not have `vim-tutor`. 
-I would recommend opening vim for that, and then switching back to your editor's vim mode once you've completed it.
 
 There are also a couple of editors that natively implement a model similar to vim, albeit with some improvements:
 - [neovim](https://neovim.io)
@@ -138,3 +135,4 @@ There are also a couple of editors that natively implement a model similar to vi
 - [helix](https://helix-editor.com)
 - [doom-emacs](https://doomemacs.org) - a minimal emacs framework that implements the vim model
 
+_If you're interested in exploring this more, open a unix terminal, type `vimtutor`, and press enter._
