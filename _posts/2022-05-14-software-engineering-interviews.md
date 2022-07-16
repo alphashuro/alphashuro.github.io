@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Software engineering interviews"
+title: "software engineering interviews"
 date: 2022-05-16 19:51:32 +0200
 tags: software-engineering
 ---
@@ -10,20 +10,20 @@ tags: software-engineering
 ## TL;DR
 
 - technical assessments should be take home projects with no time limit
-- the evaluation of the solution should involve 
+- the evaluation of the solution should involve
     1. the team reading through the solution, evaluating it
     2. the engineer presenting their solution to members of the team in a situation designed to simulate a real project the team needs to work on
 
 ## Reasoning
 
-Software engineering involves a lot of creative problem solving, 
+Software engineering involves a lot of creative problem solving,
 and when you're stressed your brain makes very inaccurate decisions based more on emotion than thought.
 Brain functions involved in problem solving, like goal directed behaviour, reinforcement learning, decision-making, etc happen in the frontal lobe.
 
 _imagine an illustration of a frontal lobe here_
 
-Information from your senses usually has to pass through the frontal lobe first before resulting in action, 
-giving you the opportunity to think carefully before it goes to the amygdala to be processed for emotion, 
+Information from your senses usually has to pass through the frontal lobe first before resulting in action,
+giving you the opportunity to think carefully before it goes to the amygdala to be processed for emotion,
 earning us the classification of an "intelligent species".
 However, when you're in a stressful situation the brain begins to prefer speed over quality [of thought], and sends information directly to the amygdala.
 
@@ -40,8 +40,8 @@ All of these scenarious tend to create this kind of stressful situation, because
 1. Millenia of human evolution has driven us to see social interaction as a life and death affair, and it hasn't caught up with how much the world has changed in the last few centuries. Failed social interactions don't often result in death any more.
 2. Sometimes, it actually _is_ a threat to the candidate's well being, if their survival or well being is reliant on it. In Africa, this is often the case.
 
-Given that we want to see how well a candidate can solve problems, 
-we shouldn't put them in a situation where their brain performs _worst_. 
+Given that we want to see how well a candidate can solve problems,
+we shouldn't put them in a situation where their brain performs _worst_.
 
 ## What I propose
 
