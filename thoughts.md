@@ -1,5 +1,6 @@
 ---
-title: thoughts
+title: thoughts (blog)
+layout: default
 ---
 
 Musings, ramblings, and ideas that I found valuable.
