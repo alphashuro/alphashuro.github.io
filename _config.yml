@@ -67,3 +67,11 @@ defaults:
 
 # Analytics
 google_analytics: G-QXJ9S8QYXZ
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: alphashuro
+
+url: https://alphashuro.com
